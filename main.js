@@ -1,0 +1,1 @@
+document.querySelector(".style-theme").href = "theme-1"

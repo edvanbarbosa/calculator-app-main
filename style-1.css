@@ -1,0 +1,147 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'League Spartan', sans-serif;
+  
+}
+main{
+    height: 95%;
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1em;
+}
+.center{
+    width: 100%;
+    height: 20%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.buttons{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 10px;
+
+}
+.quatroxquatro{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 80%;
+    width: 95%;
+    
+    align-items: center;
+    justify-items: center;
+}
+.quatroxquatro > .button{
+    height: 70%;
+    width: 70%;
+}
+.umxdois{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    height: 15%;
+    width: 95%;
+}
+.umxdois > div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 85%;
+  
+}
+.visor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 3em;
+    padding: 1em;
+}
+.theme{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+    height: 100%;
+}
+.select-theme{
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    align-items: center;
+    height: 50%;
+    gap: .2em;
+ 
+}
+.space-selector{
+   
+    height: 50%;
+    width: 80%;
+    border-radius: 20px;
+}
+.space-selector > button{
+    margin-left: .5em;
+    margin-right: .5em;
+    padding: 7%;
+    border-radius: 50%;
+    border: none;
+}
+.number-theme{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    width: 60%;
+}

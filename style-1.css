@@ -64,7 +64,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 3em;
     border-radius: 10px;
 
 }
@@ -106,7 +106,7 @@ h2{
     justify-content: flex-end;
     align-items: center;
     border-radius: 10px;
-    font-size: 3em;
+    font-size: 4em;
     padding: 1em;
 }
 .theme{
